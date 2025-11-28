@@ -28,8 +28,8 @@ public class ModulusCalculator {
         }
     }
 }
-``
-<img width="1920" height="1080" alt="modulas" src="https://github.com/user-attachments/assets/582d19d6-dbdb-44eb-8ce5-5903a90c55ed" />
+```
+<img width="1920" height="1080" alt="modulas" src="https://github.com/user-attachments/assets/5d61c282-b858-46ad-960a-e599e53655e6" />
 
 
 ---
