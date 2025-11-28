@@ -28,8 +28,8 @@ public class ModulusCalculator {
         }
     }
 }
-``<img width="1920" height="1080" alt="modulas" src="https://github.com/user-attachments/assets/55badb74-849d-4cf9-95d8-40fc5acdc20e" />
-`
+``
+<img width="1920" height="1080" alt="modulas" src="https://github.com/user-attachments/assets/582d19d6-dbdb-44eb-8ce5-5903a90c55ed" />
 
 
 ---
@@ -57,7 +57,8 @@ public class DynamicArrayAllocation {
 }
 ```
 
-<img width="1920" height="1080" alt="dynamicarray" src="https://github.com/user-attachments/assets/d6034258-5399-4fc7-b04d-2950232ea70b" />
+<img width="1920" height="1080" alt="dynamicarray" src="https://github.com/user-attachments/assets/1321918e-a3a2-40b5-ba37-27773396c043" />
+
 
 ---
 
@@ -89,7 +90,8 @@ public class NameToIntegerConverter {
 }
 ```
 
-<img width="1920" height="1080" alt="nametostring" src="https://github.com/user-attachments/assets/fad89a44-702e-4972-bb0b-6f0209b1b73a" />
+<img width="1920" height="1080" alt="nametostring" src="https://github.com/user-attachments/assets/0abd5aa1-d82d-4a10-b334-17aaeb9111ac" />
+
 
 ---
 
@@ -117,8 +119,7 @@ public class FileLineReader {
     }
 }
 ```
-<img width="1920" height="1080" alt="filelinereader" src="https://github.com/user-attachments/assets/3623207c-adae-4e31-91f0-a45fd98a3f02" />
-
+<img width="1920" height="1080" alt="filelinereader" src="https://github.com/user-attachments/assets/f73c2cd5-d2aa-4fb2-9d9a-9c32cc9d76c8" />
 
 ---
 
@@ -160,8 +161,9 @@ public class EmailValidator {
 }
 ```
 
+<img width="1920" height="1080" alt="emailvalidator" src="https://github.com/user-attachments/assets/28c9fc90-8d20-432f-9cc5-131cf6c17f71" />
 
-<img width="1920" height="1080" alt="emailvalidator" src="https://github.com/user-attachments/assets/5e0ae0b6-6ba1-41d8-a4c4-a4cd67df276e" />
+
 
 ---
 
