@@ -64,10 +64,10 @@ Make sure all .java files are in the same folder when compiling and running.
 ## Screenshot of main.java
 
 
-```
+
 <img width="1920" height="1080" alt="Screenshot 2025-11-28 215839" src="https://github.com/user-attachments/assets/c9d270fb-05c2-4c50-813f-5c5ab27382ec" />
 
-```
+
 
 
 
