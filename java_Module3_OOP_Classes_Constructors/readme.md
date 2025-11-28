@@ -171,10 +171,8 @@ public class Main {
         System.out.println("Volume: " + cy2.volume());
     }
 }
-```
-<img width="1920" height="1080" alt="Screenshot 2025-11-28 215839" src="https://github.com/user-attachments/assets/3ef6a4ae-01f1-49f8-be23-c4341cbd8274" />
+<img width="1920" height="1080" alt="Screenshot 2025-11-28 215839" src="https://github.com/user-attachments/assets/0046829c-93ea-4029-ba4a-bf8d05aa4b76" />
 
-```
 
 📘 Concepts Used in Module 5 OOP Programs
 1️⃣ Employee.java — Concepts Used
