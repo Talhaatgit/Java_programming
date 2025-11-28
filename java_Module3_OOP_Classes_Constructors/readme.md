@@ -1,227 +1,83 @@
-Module 5 Java OOP Programs
-
-This markup file contains all 5 Java OOP programs from Module 5 (Employee, Cellphone, Book, Cylinder, Main), along with  output screenshot.
-
-📌 1. Employee.java
-class Employee {
-    private int salary;
-    private String name;
-
-    public int getSalary() { 
-        return salary; 
-    }
-
-    public void setSalary(int salary) { 
-        this.salary = salary; 
-    }
-
-    public String getName() { 
-        return name; 
-    }
-
-    public void setName(String name) { 
-        this.name = name; 
-    }
-}
-
-
-
-📌 2. Cellphone.java
-class Cellphone {
-    void ring() {
-        System.out.println("Ringing...");
-    }
-
-    void vibrate() {
-        System.out.println("Vibrating...");
-    }
-
-    void callFriend() {
-        System.out.println("Calling friend...");
-    }
-}
-
-
-📌 3. Book.java
-class Book {
-    String title;
-    String author;
-    double price;
-
-    // Default constructor
-    Book() {
-        this.title = "Unknown";
-        this.author = "Unknown";
-        this.price = 0.0;
-    }
-
-    // Parameterized constructor (title + author)
-    Book(String title, String author) {
-        this.title = title;
-        this.author = author;
-        this.price = 0.0;
-    }
-
-    // Parameterized constructor (title + author + price)
-    Book(String title, String author, double price) {
-        this.title = title;
-        this.author = author;
-        this.price = price;
-    }
-}
-
-
-
-📌 4. Cylinder.java
-class Cylinder {
-    private double radius;
-    private double height;
-
-    // Getters
-    public double getRadius() { 
-        return radius; 
-    }
-
-    public double getHeight() { 
-        return height; 
-    }
-
-    // Setters
-    public void setRadius(double radius) { 
-        this.radius = radius; 
-    }
 
-    public void setHeight(double height) { 
-        this.height = height; 
-    }
 
-    // Surface area calculation
-    public double surfaceArea() {
-        return 2 * Math.PI * radius * (radius + height);
-    }
+# Module 5 Java OOP Programs
 
-    // Volume calculation
-    public double volume() {
-        return Math.PI * radius * radius * height;
-    }
+This repository contains five Java programs demonstrating basic Object-Oriented Programming (OOP) concepts such as classes, objects, constructors, getters, setters, and method usage.
 
-    // Default constructor
-    Cylinder() {
-        this.radius = 1;
-        this.height = 1;
-    }
+---
 
-    // Parameterized constructor
-    Cylinder(double radius, double height) {
-        this.radius = radius;
-        this.height = height;
-    }
-}
+## List of Programs
 
+1. Employee.java
+   A class that uses private variables with getter and setter methods.
 
+2. Cellphone.java
+   A simple class that prints basic cellphone actions.
 
-📌 5. Main.java
-public class Main {
-    public static void main(String[] args) {
+3. Book.java
+   Demonstrates constructor overloading with three constructors.
 
-        // Employee class test
-        Employee e = new Employee();
-        e.setName("Rahul");
-        e.setSalary(45000);
+4. Cylinder.java
+   Uses getters, setters, default and parameterized constructors, and includes methods to calculate surface area and volume.
 
-        System.out.println("\nEmployee Details:");
-        System.out.println("Name: " + e.getName());
-        System.out.println("Salary: " + e.getSalary());
+5. Main.java
+   Tests all the above classes by creating objects and displaying output.
 
-        // Cellphone class test
-        Cellphone c = new Cellphone();
-        System.out.println("\nCellphone Actions:");
-        c.ring();
-        c.vibrate();
-        c.callFriend();
+---
 
-        // Book class test
-        System.out.println("\nBook Objects:");
-        Book b1 = new Book();
-        Book b2 = new Book("Think and Grow Rich", "Napoleon Hill");
-        Book b3 = new Book("Java Programming", "James Gosling", 499);
+## Folder Structure
 
-        System.out.println("Book 1 → Title: " + b1.title + ", Author: " + b1.author + ", Price: " + b1.price);
-        System.out.println("Book 2 → Title: " + b2.title + ", Author: " + b2.author + ", Price: " + b2.price);
-        System.out.println("Book 3 → Title: " + b3.title + ", Author: " + b3.author + ", Price: " + b3.price);
 
-        // Cylinder using setters
-        Cylinder cy1 = new Cylinder();
-        cy1.setRadius(5);
-        cy1.setHeight(10);
 
-        System.out.println("\nCylinder 1 (using setters):");
-        System.out.println("Radius: " + cy1.getRadius());
-        System.out.println("Height: " + cy1.getHeight());
-        System.out.println("Surface Area: " + cy1.surfaceArea());
-        System.out.println("Volume: " + cy1.volume());
+## How to Run the Programs
 
-        // Cylinder using constructor
-        Cylinder cy2 = new Cylinder(7, 14);
+Step 1: Compile the Java files
 
-        System.out.println("\nCylinder 2 (using constructor):");
-        System.out.println("Radius: " + cy2.getRadius());
-        System.out.println("Height: " + cy2.getHeight());
-        System.out.println("Surface Area: " + cy2.surfaceArea());
-        System.out.println("Volume: " + cy2.volume());
-    }
-}
-<img width="1920" height="1080" alt="Screenshot 2025-11-28 215839" src="https://github.com/user-attachments/assets/0046829c-93ea-4029-ba4a-bf8d05aa4b76" />
+```
+javac *.java
+```
 
+Step 2: Run the main program
 
-📘 Concepts Used in Module 5 OOP Programs
-1️⃣ Employee.java — Concepts Used
+```
+java Main
+```
 
-Encapsulation
+Make sure all .java files are in the same folder when compiling and running.
 
-Private instance variables
+---
 
-Getter and Setter methods
+## Concepts Used
 
-Object interaction
+1. Classes and Objects
+2. Encapsulation
+3. Getter and Setter methods
+4. Default Constructor
+5. Parameterized Constructor
+6. Constructor Overloading
+7. Mathematical methods
+8. String handling
+9. Method invocation through objects
 
-2️⃣ Cellphone.java — Concepts Used
+---
 
-Method creation
+## Screenshot of main.java
 
-Printing object actions
 
-Calling object methods
+```
+<img width="1920" height="1080" alt="Screenshot 2025-11-28 215839" src="https://github.com/user-attachments/assets/c9d270fb-05c2-4c50-813f-5c5ab27382ec" />
 
-3️⃣ Book.java — Concepts Used
+```
 
-Constructor overloading
 
-Default constructor
 
-Parameterized constructors
+---
 
-Assigning values to instance variables
+## Author Mohammed Talha
 
-4️⃣ Cylinder.java — Concepts Used
+Module 5 – Java OOP Programs
+Prepared for academic submission
 
-Encapsulation with getters and setters
+---
 
-Default + parameterized constructors
-
-Constructor overloading
-
-Mathematical computation using Math.PI
-
-Surface area & volume calculation methods
-
-5️⃣ Main.java — Concepts Used
-
-Object creation for multiple classes
-
-Calling functions & constructors
-
-Displaying outputs
-
-Testing different class behaviors
 
